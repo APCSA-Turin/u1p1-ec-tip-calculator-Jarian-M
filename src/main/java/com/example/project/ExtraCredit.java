@@ -28,8 +28,7 @@ public class ExtraCredit {
         result.append("Tip per person: $" + tPP).append("\n");
         result.append("Total cost per person: $" + tCPP).append("\n");
         result.append("-------------------------------\n");
-        result.append("Items ordered: \n");
-        result.append(items);
+        result.append("Items ordered: \n").append(items);
 
         return result.toString();
     }
@@ -44,8 +43,8 @@ public class ExtraCredit {
         //Your scanner object and while loop should go here
         Scanner scan = new Scanner(System.in);
 
-        while (!input.equals("-1")) { /*The argument checks to see if the item name inputted by the user is '-1.' 
-        If it is then the rest of the code won't run; however, if the item name isn't the same as '-1' then the rest of the code does run and continues to run until the inputted item name is equal to 'end.'
+        while (!input.equals("-1")) { /*The argument checks to see if the item name inputted by the user is equal to the string '-1.' 
+        If it is then the rest of the code won't run; however, if the item name isn't the same as the string '-1' then the rest of the code does run and continues to run until the inputted item name is equal to 'end.'
         I learned how to compare strings here: https://stackoverflow.com/questions/50356306/while-loop-while-string-is-not-equal-to-multiple-other-strings-java*/
             System.out.println("Enter an item name or type '-1' to finish:");
             input = scan.nextLine();
@@ -56,8 +55,6 @@ public class ExtraCredit {
             
             }
         }
-        System.out.println(items);
-        System.out.println("----");
         scan.close();
         System.out.println(calculateTip(people,percent,cost,items));
     }
