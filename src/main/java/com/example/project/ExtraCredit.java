@@ -36,9 +36,9 @@ public class ExtraCredit {
 
                                    
     public static void main(String[] args) {
-        int people = 6;
-        int percent = 25;
-        double cost = 52.27;
+        int people = 2;
+        int percent = 5;
+        double cost = 29.56;
         String items = ""; 
         String input = "";
         //Your scanner object and while loop should go here

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.ExtraCreditTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-20T22:26:23" hostname="codespaces-7503af" time="0.052">
+<testsuite name="com.example.project.ExtraCreditTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-24T12:41:45" hostname="codespaces-7503af" time="0.068">
   <properties/>
-  <testcase name="testExtraCredit()" classname="com.example.project.ExtraCreditTest" time="0.052">
+  <testcase name="testExtraCredit()" classname="com.example.project.ExtraCreditTest" time="0.068">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------&#10;Total bill before tip: $52.27&#10;Total percentage: 25%&#10;Total tip: $13.07&#10;Total Bill with tip: $65.34&#10;Per person cost before tip: $8.71&#10;Tip per person: $2.18&#10;Total cost per person: $10.89&#10;-------------------------------&#10;Items ordered:&#10;salmon&#10;pizza&#10;salad&#10;french fries&#10;milkshake&#10;&gt; but was: &lt;-------------------------------&#10;Total bill before tip: $52.27&#10;Total percentage: 25%&#10;Total tip: $13.07&#10;Total Bill with tip: $65.34&#10;Per person cost before tip: $8.71&#10;Tip per person: $2.18&#10;Total cost per person: $10.89&#10;-------------------------------&#10;Items ordered: &#10;salmon&#10;pizza&#10;salad&#10;french fries&#10;milkshake&#10;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------
 Total bill before tip: $52.27
 Total percentage: 25%
